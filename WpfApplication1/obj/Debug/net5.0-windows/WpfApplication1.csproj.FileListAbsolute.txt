@@ -1,0 +1,42 @@
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\HandyControl.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\OxyPlot.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\OxyPlot.Wpf.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\ca-ES\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\en\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\fa\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\fr\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\ko-KR\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\pl\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\pt-BR\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\ru\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\tr\HandyControl.resources.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\WpfApplication1.csproj.AssemblyReference.cache
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\WpfApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\WpfApplication1.AssemblyInfoInputs.cache
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\WpfApplication1.AssemblyInfo.cs
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\WpfApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\WpfApplication1.csproj.CopyComplete
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\WpfApplication1.genruntimeconfig.cache
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\drawing graphs.exe
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\drawing graphs.deps.json
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\drawing graphs.runtimeconfig.json
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\drawing graphs.runtimeconfig.dev.json
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\drawing graphs.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\ref\drawing graphs.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\bin\Debug\net5.0-windows\drawing graphs.pdb
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\drawing graphs_MarkupCompile.cache
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\drawing graphs_MarkupCompile.lref
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\drawing graphs.g.resources
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\drawing_graphs.Properties.Resources.resources
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\WpfApplication1.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\drawing graphs.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\ref\drawing graphs.dll
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\drawing graphs.pdb
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\ConstantBox.g.cs
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\GraphConstants.g.cs
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\GraphConstants.baml
+C:\Users\Сергей\Desktop\test\documentation-examples\HelloWorld\WpfApplication1\obj\Debug\net5.0-windows\ConstantBox.baml

@@ -1,0 +1,24 @@
+﻿<Window xmlns:drawing_graphs="clr-namespace:drawing_graphs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:oxy="http://oxyplot.org/wpf"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:viewModels="clr-namespace:drawing_graphs.ViewModels"
+        xmlns:UserControls="clr-namespace:drawing_graphs.UserControls"  x:Class="WpfApplication1.MainWindow"
+        Title="Graph constructor" Height="768" Width="1366">
+    <Window.DataContext>
+        <viewModels:MainViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel Margin="10,0,10,0">
+            <StackPanel VerticalAlignment="Stretch" >
+                <oxy:PlotView Model="{Binding Model}" Height="550"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
+                <drawing_graphs:GraphConstants x:Name="ConstantsBox" HorizontalAlignment="Left" Margin="20,0,0,0" />
+                <UserControls:IterGraphConstants x:Name="IterConstantBox" HorizontalAlignment="Right" Margin="30,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

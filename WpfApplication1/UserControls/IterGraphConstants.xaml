@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="drawing_graphs.UserControls.IterGraphConstants"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:drawing_graphs.UserControls"
+             xmlns:viewModels="clr-namespace:drawing_graphs.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="125" d:DesignWidth="500">
+    <UserControl.DataContext>
+        <viewModels:IterGraphConstantsViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <GroupBox Header="Constants iteration">
+            <WrapPanel>
+                <StackPanel>
+                    <hc:TextBox Text="{Binding StartX}"  TextWrapping="Wrap" hc:TitleElement.Title="X:" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE"/>
+                    <hc:TextBox Text="{Binding StartY}"   TextWrapping="Wrap" hc:TitleElement.Title="Y:" hc:TitleElement.TitlePlacement="Left" Margin="0,5,0,0" Background="#FFDEDEDE"/>
+                </StackPanel>
+                <StackPanel Margin="20,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <hc:TextBox Text="{Binding StartA}"  TextWrapping="Wrap" hc:TitleElement.Title="A:" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE"/>
+                        <hc:TextBox Text="{Binding EndA}"  TextWrapping="Wrap" hc:TitleElement.Title="-" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE" Margin="5,0,0,0"/>
+                        <hc:TextBox Text="{Binding DeltaA}"  TextWrapping="Wrap" hc:TitleElement.Title=":" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE" Margin="5,0,0,0"/>
+                        <hc:TextBox Text="{Binding CurrentA}" TextWrapping="Wrap" hc:TitleElement.Title="=" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE" Margin="5,0,0,0" IsReadOnly="True" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                        <hc:TextBox Text="{Binding StartB}"  TextWrapping="Wrap" hc:TitleElement.Title="B:" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE"/>
+                        <hc:TextBox Text="{Binding EndB}"  TextWrapping="Wrap" hc:TitleElement.Title="-" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE" Margin="5,0,0,0"/>
+                        <hc:TextBox Text="{Binding DeltaB}"  TextWrapping="Wrap" hc:TitleElement.Title=":" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE" Margin="5,0,0,0"/>
+                        <hc:TextBox Text="{Binding CurrentB}" TextWrapping="Wrap" hc:TitleElement.Title="=" hc:TitleElement.TitlePlacement="Left" Background="#FFDEDEDE" Margin="5,0,0,0" IsReadOnly="True" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Margin="20,0,0,0">
+                    <hc:TextBox Text="{Binding  CountPoints}" TextType="Int"  TextWrapping="Wrap" hc:TitleElement.Title="Count points:" hc:TitleElement.TitlePlacement="Left" VerticalAlignment="Top" Height="30" Background="#FFDEDEDE" HorizontalContentAlignment="Center"/>
+                    <hc:TextBox Text="{Binding  DelayTime}" TextType="Int"  TextWrapping="Wrap" hc:TitleElement.Title="delay(mc):" hc:TitleElement.TitlePlacement="Left" VerticalAlignment="Top" Height="30" Background="#FFDEDEDE" Margin="0,5,0,0" HorizontalContentAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Margin="20,0,0,0">
+                    <Button Content="Calculate" HorizontalAlignment="Stretch" Background="#FFDEDEDE" Click="Button_Click"/>
+                    <Button Content="Stop" HorizontalAlignment="Stretch" Margin="0,5,0,0" Background="#FFDEDEDE" Click="Button_Click_Stop"/>
+                </StackPanel>
+            </WrapPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>
