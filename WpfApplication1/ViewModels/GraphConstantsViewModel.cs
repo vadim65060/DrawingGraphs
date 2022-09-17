@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using drawing_graphs.Interfaces;
-
+﻿
 namespace drawing_graphs.ViewModels
 {
     internal class GraphConstantsViewModel
     {
-        private GraphData data = new GraphData();
+        private GraphData data = new();
         public MainViewModel ParentViewModel;
 
 

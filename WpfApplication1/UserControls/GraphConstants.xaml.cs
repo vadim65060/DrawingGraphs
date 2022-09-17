@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using drawing_graphs.ViewModels;
 
-namespace drawing_graphs
+namespace drawing_graphs.UserControls
 {
     /// <summary>
     /// Логика взаимодействия для GraphConstants.xaml

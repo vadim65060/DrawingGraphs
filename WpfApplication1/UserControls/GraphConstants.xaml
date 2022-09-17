@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:drawing_graphs"
              xmlns:hc="https://handyorg.github.io/handycontrol"
              xmlns:viewModels="clr-namespace:drawing_graphs.ViewModels"
-             x:Class="drawing_graphs.GraphConstants"
+             x:Class="drawing_graphs.UserControls.GraphConstants"
              mc:Ignorable="d" 
              d:DesignHeight="125" d:DesignWidth="350">
     <UserControl.DataContext>

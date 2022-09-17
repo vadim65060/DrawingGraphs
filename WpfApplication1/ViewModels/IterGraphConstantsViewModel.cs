@@ -10,7 +10,7 @@ namespace drawing_graphs.ViewModels
 {
     class IterGraphConstantsViewModel : INotifyPropertyChanged
     {
-        private GraphData data = new GraphData();
+        private GraphData data = new();
         public MainViewModel ParentViewModel;
         private int _delayTime = 3000;
         private double _startA = 1, _endA = 2, _startB = 1, _endB = 2;
@@ -26,17 +26,21 @@ namespace drawing_graphs.ViewModels
 
         public async void StartCalculate()
         {
-            for (double a = _startA; a <= _endA; a += _deltaA)
+            CanCalculate = true;
+            int n = (int) Math.Abs((_startA - _endA) / _deltaA);
+            int m = (int) Math.Abs((_startB - _endB) / _deltaB);
+            for (int i = 0; i < n; i++)
             {
-                for (double b = _startB; b <= _endB; b += _deltaB)
+                for (int j = 0; j < m; j++)
                 {
                     if (!CanCalculate)
                     {
+                        CanCalculate = true;
                         return;
                     }
-                    data.ConstA = _currentA = a;
 
-                    data.ConstB = _currentB = b;
+                    data.ConstA = _currentA = _startA + _deltaA * i;
+                    data.ConstB = _currentB = _startB + _deltaB * j;
                     OnPropertyChanged(nameof(CurrentA));
                     OnPropertyChanged(nameof(CurrentB));
                     ParentViewModel.Calculate(data);

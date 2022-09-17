@@ -1,9 +1,8 @@
-﻿using drawing_graphs.ViewModels;
+﻿using System.Windows;
+using drawing_graphs.ViewModels;
 
-namespace WpfApplication1
+namespace drawing_graphs
 {
-    using System.Windows;
-
     public partial class MainWindow : Window
     {
         private readonly MainViewModel _viewModel;
